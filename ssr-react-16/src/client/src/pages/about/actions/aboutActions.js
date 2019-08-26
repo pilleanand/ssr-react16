@@ -12,7 +12,7 @@ export const fetchAboutData = (params) => {
         });
       })
       .catch((error) => {
-        console.log('Error while fetching posts from networ', error);
+        console.log('Error while fetching posts from network', error);
         reject(null);
       });
   });
