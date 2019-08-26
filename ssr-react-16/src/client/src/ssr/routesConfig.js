@@ -1,9 +1,5 @@
-import LandingComponent from '../components/pages/landing';
-import AboutComponent from '../components/pages/donationCampaigns/components/AboutComponent';
-
-import {
-  DONATE
-} from './webClientEndPoints';
+import LandingComponent from '../pages/landing/components/LandingComponent';
+import AboutComponent from '../pages/about/components/AboutComponent';
 
 export default [
   {
@@ -12,8 +8,8 @@ export default [
     exact: true,
   },
   {
-    path: `/${AboutComponent}`,
-    component: DonateComponent,
+    path: '/about',
+    component: AboutComponent,
     exact: true,
   }
 ];
